@@ -1,0 +1,59 @@
+body{
+    background-image: url("background.jpg");
+    font-family: 'Flamenco', cursive;
+}
+
+.header{
+    width: 100%;
+    margin: 0px;
+    font-size: 30px;
+    box-shadow: 5px 5px 5px green;
+    padding: 5px;
+}
+
+.header2{
+    float: none;
+    font-size: 26px;
+    background-color: rgb(1, 138, 101);
+    padding: 5px;
+    border-radius: 22px;
+    box-shadow: 0px 0px 20px yellow;
+    
+}
+
+.header3{
+ font-size: 22px;
+ padding: 5px;
+ border-radius: 30px;
+border: black double 5px;
+color: black;
+font-weight: bold;
+ 
+}
+
+.results{
+    font-size: 24px;
+}
+
+#object_result,#accuracy_result{
+    color:midnightblue ;
+    font-weight: bold;
+}
+
+#footer{
+    background-color: springgreen;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    line-height: 2;
+    font-size: 18;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+canvas{
+    border: black 3px solid;
+    margin-top: 180;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px springgreen;
+}
